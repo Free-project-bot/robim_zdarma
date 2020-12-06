@@ -1,0 +1,30 @@
+.Header {
+    width: 100%;
+    background-color: rgb(29, 77, 163);
+}
+
+.Main {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+
+.Main > h2 {
+    margin: 0;
+}
+
+.Main > img {
+    height: 50px;
+}
+
+.Icons > svg {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.Icons > svg:first-child {
+    margin-right: 10px;
+}

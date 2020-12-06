@@ -1,0 +1,12 @@
+.Nadpis {
+    border-bottom: 4px solid  rgb(19, 35, 80);
+    color: rgb(19, 35, 80);
+}
+
+.NadpisSmall {
+    font-size: 16px;
+}
+
+.NadpisRight {
+    text-align: right;
+}

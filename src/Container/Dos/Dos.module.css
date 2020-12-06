@@ -1,0 +1,57 @@
+.Dos {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Dos > h1 {
+    color: rgb(19, 35, 80);
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Buttons > button:first-child {
+    margin-right: 25px;
+}
+
+.Text {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 40px 0;
+}
+
+.Text > p {
+    width: calc(100% - 250px);
+    font-size: 15px;
+    text-align: justify;
+    margin: 0;
+}
+
+.Info {
+    width: 250px;
+    text-align: right;
+    font-weight: 500;
+    color: rgb(19, 35, 80);
+}
+
+.Sliderinho {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.First {
+    background-image: url("../../static/fotka1.jpg");
+}
+
+.Second {
+    background-image: url("../../static/fotka2.jpg");
+}
+
+.Third {
+    background-image: url("../../static/fotka3.jpg");
+}
